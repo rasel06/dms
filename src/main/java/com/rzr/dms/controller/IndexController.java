@@ -12,13 +12,4 @@ public class IndexController {
         return "view/admin/index";
     }
     
-    
-//    @RequestMapping("/rasel")
-//	public String home(
-//	    @RequestParam(value = "emailsubject") String emailSubject,
-//	    @RequestParam(value = "emailaddress") String emailAddress1,
-//	    @RequestParam(value = "emailaddress") String emailAddress2) {
-//	    return "admin/index";
-//	}
-    
 }

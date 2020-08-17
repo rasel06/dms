@@ -4,9 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/patients")
+//@RequestMapping("/patient")
 public class PatientController {
 	
-	//public 
+//	@RequestMapping("/home")
+//	public String home() {
+//	
+//		return "view/patient/home";
+//	}
 
 }
