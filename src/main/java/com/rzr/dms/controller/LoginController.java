@@ -1,4 +1,4 @@
-package com.rzr.dms.controllers;
+package com.rzr.dms.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login(){
-        return "admin/login";
+        return "view/admin/login";
     }
 }
